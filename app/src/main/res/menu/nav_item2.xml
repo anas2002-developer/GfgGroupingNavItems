@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+    <menu>
+        <item
+            android:id="@+id/row_home"
+            android:title="Home"
+            android:icon="@drawable/home">
+        </item>
+
+        <item
+            android:title="Favourites"
+            android:id="@+id/row_fav"
+            android:icon="@drawable/fav">
+        </item>
+
+        <item android:title="Profile"
+            android:id="@+id/row_profile"
+            android:icon="@drawable/profile"/>
+    </menu>
+    </item>
+
+    <item android:title="Communication">
+        <menu>
+            <item android:title="Settings"
+                android:id="@+id/row_settings"
+                android:icon="@drawable/settings"/>
+
+            <item
+                android:title="Share"
+                android:id="@+id/row_share"
+                android:icon="@drawable/share">
+            </item>
+
+            <item android:title="Bug Fix"
+                android:id="@+id/row_bugfix"
+                android:icon="@drawable/bugfix"/>
+
+            <item
+                android:title="Suggestions"
+                android:id="@+id/row_suggestions"
+                android:icon="@drawable/suggestions">
+            </item>
+
+        </menu>
+    </item>
+
+</menu>

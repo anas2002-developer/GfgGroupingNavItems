@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GfgGroupingNavItems</string>
+    <string name="open_drawer">openDrawer</string>
+    <string name="close_drawer">closeDrawer</string>
+</resources>
